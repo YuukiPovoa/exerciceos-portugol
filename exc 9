@@ -1,0 +1,33 @@
+programa {        
+	inclua biblioteca Util --> u         
+	inteiro vInc, vFin, opcao         
+	inteiro ordem[1000]                       
+	funcao inicio() 
+	{        
+		vInc = 1000         
+		ordem [1] = 100  
+		ordem [2] = 200      
+		ordem [3] = 300    
+		ordem [4] = 400        
+		ordem [5] = 500  
+		ordem [6] = 600        
+		ordem [7] = 700
+		ordem [8] = 800        
+		ordem [9] = 900    
+		ordem [10] = 1000      
+		escreva("     - Olá!")        
+		u.aguarde(20)            
+		limpa ()            
+		escreva ("\n - Digite (1) para começar : ")                
+		leia (opcao)                     limpa ()                 
+		escreva (ordem [1],", ") u.aguarde(20)  
+		escreva (ordem [2],", ") u.aguarde(20)    
+		escreva (ordem [3],", ") u.aguarde(20) 
+		escreva (ordem [4],", ") u.aguarde(20)   
+		escreva (ordem [5],", ") u.aguarde(20)    
+		escreva (ordem [6],", ") u.aguarde(20)    
+		escreva (ordem [7],", ") u.aguarde(20)    
+		escreva (ordem [8],", ") u.aguarde(20)   
+		escreva (ordem [9],", ") u.aguarde(20)  
+		escreva (ordem [10]) u.aguarde(20)    } }
+		
